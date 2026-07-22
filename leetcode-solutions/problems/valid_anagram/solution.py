@@ -8,7 +8,7 @@ class Solution:
         # return sorted(s) == sorted(t) # nlogn
 
 
-        # HashMap Approach
+        # HashMap Approach : Approach 1
         freq={}
         for ch in s:
         #   if ch not in t:
